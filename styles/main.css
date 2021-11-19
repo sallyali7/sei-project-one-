@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/Nokia\ background.jpg);
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+.scoreBoard {
+  font-size: xx-large;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 900px;
+}
+
+.grid {
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  height: 1000px;
+  width: 1000px;
+}
+
+.grid div {
+  border: none;
+  flex-grow: 1;
+  height: 10%;
+  width: 10%;
+}
+.grid div.apple {
+  background-image: url('../assets/400px-Curry_Ingredient_Fancy_Apple_Sprite.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.grid div.snake {
+  background-color:black;
+}
