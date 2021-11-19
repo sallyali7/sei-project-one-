@@ -11,10 +11,12 @@ body {
   margin: 0;
 }
 .scoreBoard {
-  font-size: xx-large;
-  font-family: 'Segoe UI', sans-serif;
+  border: 3px solid darkgrey;
+  font-size: 40px;
+  font-family: Georgia, sans-serif;
   padding: 20px;
   text-align: center;
+  height: fit-content;
 }
 
 .grid-wrapper {
@@ -50,3 +52,4 @@ body {
 .grid div.snake {
   background-color:black;
 }
+

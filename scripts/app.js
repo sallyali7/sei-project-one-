@@ -76,7 +76,7 @@ function getNextSnakePositions() {
     (currentX === 0 && snakeDirection === -1) ||
     (currentY === 0 && snakeDirection === -10) ||
     (currentY > 8 && snakeDirection === 10)
-    // (cells[currentHead + snakeDirection].classList.contains('snake')) ** condition for snake to die if he hits himself
+  
   ){
     window.clearInterval(movementInterval)
     window.alert('Game Over')
