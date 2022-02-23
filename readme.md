@@ -6,7 +6,7 @@ Link to game: https://sallyali7.github.io/sei-project-one-/
 
 ### Overview ###
 
-A classic Nokia Snake Game. A snake moves continuously in a box and a random apple appears within the paramter. The player controls the snake's direction and everytime it eats an apple it grows in length and a new apple is generated at another random location. The Snake dies and the player loses everytime it crashes into a wall. Score board is updated whenever the snake eats an apple. 
+A classic Nokia Snake Game. A snake moves continuously in a box and a random apple appears within the paramater. The player controls the snake's direction and every time it eats an apple it grows in length and a new apple is generated at another random location. The Snake dies and the player loses everytime it crashes into a wall. Scoreboard is updated whenever the snake eats an apple. 
 
 ## Project Brief & MVP ##
 
@@ -95,9 +95,9 @@ Lastly, i've added *if statements* to declare what happens if a snake eats an ap
 
 
 
-## Challanges ##
+## Challenges ##
 
-The main challenge for me was creating the illusion of a moving Snake. Even though the snake appears as a separate object moving along the grid, in reality it is cells of the grid changing colour in the direction that the "snake" is directed to move. Another challange was ensuring that the next random generated apple was not created on the cells that the snake is on. 
+The main challenge for me was creating the illusion of a moving Snake. Even though the snake appears as a separate object moving along the grid, in reality it is cells of the grid changing colour in the direction that the "snake" is directed to move. Another challenge was ensuring that the next random generated apple was not created on the cells that the snake is on. 
 
 ```js function getNextSnakePositions() { 
   const currentHead = snakeCells[0] 
@@ -153,9 +153,9 @@ It also showed me how powerful CSS is, even though the functions were created us
 
 As a very first project, everything was a key learning point but a couple stand out that I'll carry out with me throughout my developer journey: 
 
-• Plan extensively, not just what an app should do and how it should look like. Spending time on wireframing saves a lot of trouble and time being on wasted on refactoring and rethinking logic. 
+• Plan extensively, not just what an app should do and how it should look like. Spending time on wireframing saves a lot of trouble and time being wasted on refactoring and rethinking logic. 
 
-• Google and research as much as possible when stuck with a problem. Intially that felt like cheating but  in reality it is a very important skill to have as a developer. Tech changes rapidly and continuously so it is important to research and stay informed. 
+• Google and research as much as possible when stuck with a problem. Initially that felt like cheating but  in reality it is a very important skill to have as a developer. Tech changes rapidly and continuously so it is important to research and stay informed. 
 
 ## Future Features ## 
 • Snake dies when it crashes into itself 
