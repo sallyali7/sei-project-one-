@@ -1,12 +1,12 @@
 # Classic Snake Game #
 
-## General Assembly SEI | Project One | HTML/CSS/JavaScript | Solo | 1 Week ##
+## General Assembly SEI | Project One | HTML / CSS / JavaScript | Solo | 1 Week ##
 
 Link to game: https://sallyali7.github.io/sei-project-one-/
 
 ### Overview ###
 
-A classic Nokia Snake Game. A snake moves continuously in a box and a random apple appears within the paramater. The player controls the snake's direction and every time it eats an apple it grows in length and a new apple is generated at another random location. The Snake dies and the player loses everytime it crashes into a wall. Scoreboard is updated whenever the snake eats an apple. 
+A classic Nokia Snake Game. A snake moves continuously in a box and a random apple appears within the paramater. The player controls the snake's direction and every time it eats an apple it grows in length and a new apple is generated at another random location. The snake dies and the player loses everytime it crashes into a wall. Scoreboard is updated whenever the snake eats an apple. 
 
 ## Project Brief & MVP ##
 
@@ -14,9 +14,9 @@ A classic Nokia Snake Game. A snake moves continuously in a box and a random app
 
 • Design logic for how the game is played and won. 
 
-• Include separate HTML/ CSS / JavaScript files. 
+• Include separate HTML / CSS / JavaScript files. 
 
-• Use Javascript for Dom manipulation 
+• Use JavaScript for Dom manipulation 
 
 • KISS and DRY Code
 
@@ -50,7 +50,7 @@ function removeSnake() {
   } )
 }
 ```
-Then, I proceed to making the movement of the snake along with a set timer and eventlisteners to indicate direction and position.
+Then, I proceeded in making the movement of the snake, along with a set timer and eventlisteners to indicate direction and position.
 
 ```js
 function moveSnake() {
@@ -97,7 +97,7 @@ Lastly, i've added *if statements* to declare what happens if a snake eats an ap
 
 ## Challenges ##
 
-The main challenge for me was creating the illusion of a moving Snake. Even though the snake appears as a separate object moving along the grid, in reality it is cells of the grid changing colour in the direction that the "snake" is directed to move. Another challenge was ensuring that the next random generated apple was not created on the cells that the snake is on. 
+The main challenge for me was creating the illusion of a moving snake. Even though the snake appears as a separate object moving along the grid, in reality it is cells of the grid changing colour in the direction that the "snake" is directed to move. Another challenge was ensuring that the next random generated apple was not created on the cells that the snake is on. 
 
 ```js function getNextSnakePositions() { 
   const currentHead = snakeCells[0] 
@@ -143,7 +143,7 @@ addApple()
 ```
 ## Wins ##
 
-Everything about this project was a win for me, my very first project. I learnt a lot not only in regards to Syntax but also in regards to developer logic and how to plan things properly. 
+Everything about this project was a win for me, my very first project. I learnt a lot, not only in regards to Syntax but also in regards to developer logic and how to plan things properly. 
 
 The logic of creating an illusion of a moving entity through grid cells was a new principle for me and the beginning of my transition from a user to a developer. 
 
